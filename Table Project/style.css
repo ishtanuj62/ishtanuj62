@@ -1,0 +1,10 @@
+Table, 
+th, 
+td {
+    border: 1px solid black;
+    border-radius: 10px;
+    border-collapse: collapse;
+    background-color: rgb(255, 233, 125);
+    text-align: center;
+    
+}
