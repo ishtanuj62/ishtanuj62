@@ -10,6 +10,7 @@
     <ul>
       <li><a id="loader" target="_blank">Loader</a></li>
       <li><a id="form" target="_blank">Form</a></li>
+      <li><a id="list" target="_blank">list</a></li>
     </ul>
 
     <script>
@@ -22,6 +23,7 @@
       // Now you can use baseURL to construct your links
       var loaderPageURL = baseURL + "loader/index.html";
       var formPageURL = baseURL + "form/index.html";
+      var listPageURL = baseURL + "list/index.html";
 
       // Get all <li> elements
       var listItems = document.querySelectorAll("ul li");
@@ -41,6 +43,10 @@
             document
               .querySelector("#form")
               .setAttribute("href", formPageURL);
+          case "list":
+            document
+              .querySelector("#list")
+              .setAttribute("href", listPageURL);
         }
       });
     </script>
