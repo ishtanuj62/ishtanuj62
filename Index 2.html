@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <div class="world">
+        <h1>Employee Onboarding</h1>
+    <form action="#">
+        
+        <div class="container">
+            <label for="firstname">First Name:&nbsp;&nbsp; </label>
+            <input type="text" name="firstname" id="firstname" placeholder="First name" required>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label for="lastname">&nbsp;&nbsp;Last Name: </label>
+            <input type="text" name="lastname" id="lastname" placeholder="Last name" required>
+        </div>
+        <br>
+        <br>
+        <div class="desk">
+
+            <label for="date">Date of birth: </label>
+            <input type="date" id="date" min="05/01/2006" max="05/01/1984" required>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label for="email"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Email:</label>
+            <input type="email" name="email" id="email"required>
+            <br>
+            <br>
+            <br>
+            <label for="phone">Phone no:&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label for="jobposition">&nbsp;&nbsp;Job Position:</label>
+            <input type="text" name="jobposition" id="jobposition" required>
+            <br>
+            <br>
+            <br>
+            <div class="gen">
+
+            <label for="gender">Gender:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <select name="gender" id="gender"required>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="option">Option</option>
+            </select>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label for="address">Address: </label>
+            <input type="text" name="address" id="address" required>
+            </div>
+            <br>
+            <br>
+            <label for="city">City:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="text" name="city" id="city" required>
+            <br>
+            <br>
+
+            <label for="state">State:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="text" name="state" id="state" required>
+            
+        </div>
+    </div>
+    </form>
+</body>
+</html>
