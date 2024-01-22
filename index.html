@@ -15,6 +15,7 @@
         <li><a id="Project" target="_blank">Project</a></li>
         <li><a id="table" target="_blank">table</a></li>
         <li><a id="tab" target="_blank">School Daily Routine</a></li>
+        <li><a id="heart" target="_blank">Heart</a></li>
         
     </ul>
     </div>
@@ -36,6 +37,7 @@ var loaderPageURL = baseURL + "loader/index.html";
 var ProjectPageURL = baseURL + "Project/loader.html";
 var tablePageURL = baseURL + "Table/table.html";
 var tabPageURL = baseURL + "Table/Index.html";
+var heartPageURL = baseURL + "heart/index.html";
 
 
 // Get all <li> elements
@@ -77,6 +79,11 @@ listItems.forEach(function (li) {
       document
         .querySelector("#tab")
         .setAttribute("href", tabPageURL);
+
+        case "heart":
+      document
+      .querySelector("#heart")
+      .setAttribute("href", heartPageURL)
   }
 });
 </script>
