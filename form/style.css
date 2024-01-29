@@ -1,15 +1,19 @@
+#blank{
+  background-color: black;
+}
 .box{
   width: 60%;
-  margin: 40px 0;
+  margin: 0px 200px;
   padding: 30px 50px;
-  background-color: rgba(26, 197, 183, 0.345);
+  background-color: rgba(0, 255, 42, 0.331);
   text-align: left;
   display: inline-block;
-  border: 1px solid rgb(0, 0, 7);
+  border: 1px solid rgb(0, 0, 0);
   border-radius: 4px;
   box-sizing: border-box;
 }
 .box h1{
+ box-sizing: border-box;
   width: 500%;
   height: 10px;
   margin: 1px 5px;
@@ -25,12 +29,16 @@
 input{
   padding: 5px 20px ;
 }
-.signupbtn{
-  width: 50%;
-  height: 20px;
-  margin: 20px 20px;
-  padding: 0px 50px;
-  background-color: 2px solid rgb(99, 97, 97);
-  box-sizing: 20px 30px;
+.clearfex{
+  color: rgb(9, 62, 162);
+  width: 20%;
+  height: 50px;
+  margin: 10px 80px;
+  
 
 }
+.clearfex:hover {
+  background-color: rgba(2, 86, 255, 0.626);
+  color: rgba(0, 0, 0, 0.719);
+}
+

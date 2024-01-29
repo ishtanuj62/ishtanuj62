@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div id="blank">
     <form action="#" method="post">
         <div class="box">
         <h1>Sign Up</h1>
@@ -64,15 +65,38 @@
             <label for="confirmpassword">Confirm Password:</label>
             <input type="password" id="confirmpassword" placeholder="Confirm Password"required>
         </div>
+        <br/>
+        <br/>
+        <div class="type">
+            <label for="account">Account Type:</label>
+            <select name="accounttype" id="account">
+                <option value="saving">Saving Account</option>
+                <option value="current">Current Account</option>
+                <option value="salary">Salary Account</option>
+                <option value="fixed">Fixed Deposit Account</option>
+                <option value="demat">Demat Account</option>
+            </select>
+        </div>
+        <br>
+        <br>
+        <div class="files">
+            <label for="document">Upload Document: </label>
+            <input type="file" id="document" name="document" placeholder="choose file">
+        </div>
+        
             
         <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
         
         <div class="clearfex">
-            <button type="submit" class="signupbtn">Sign Up</button>
+            <button type="submit" class="signupbtn"><strong>Create Account</strong></button>
         </div>
-
-            <p>Already have an account ?<a href="#"> Login</a></p>
         
+
+            <p>Already have an account ?<a href="#" target="_blank"> Login</a></p>
+        
+        
+    </div>
+    <div class="world">
         
     </div>
     </div>
